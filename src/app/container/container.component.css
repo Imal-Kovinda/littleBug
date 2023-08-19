@@ -1,4 +1,75 @@
 .mainContainer{
-    background-color: rgb(192, 252, 255);
-    height: auto;
+    background-color: rgb(204, 249, 251);
+    height: 622px;
+    width: 1066px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.holder{
+    background-color: rgb(244, 244, 244);
+    width: 600px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.date-header{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: pink; */
+    width: 100%;
+}
+.dob-container{
+    
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.dob{
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+.today{
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+.btnDiv{
+    /* background-color: pink; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btnAge{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(246, 173, 37);
+    width: 120px;
+    height: 30px;
+    border: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.display-age{
+    /* background-color: pink; */
+    height: 250px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.display-age img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
 }

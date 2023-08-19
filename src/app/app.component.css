@@ -1,0 +1,4 @@
+.frontView{
+    display: flex;
+    flex-direction: row;
+}
